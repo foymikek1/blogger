@@ -52,7 +52,7 @@ group :development, :test do
   gem 'launchy'
   gem 'shoulda-matchers'
   gem 'pry'
-  gem 'active_designer'
+  gem 'active_designer', '~> 0.0.3'
 end
 
 group :development do
