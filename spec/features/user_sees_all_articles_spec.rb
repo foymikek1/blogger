@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe "user sees all articles" do
+describe "user sees all articles", type: :feature do
   describe "they visit /articles" do
     it 'displays all articles' do
       article_1 = Article.create!(title: "title 1", body: 'body 1')

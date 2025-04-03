@@ -274,7 +274,7 @@ PLATFORMS
 DEPENDENCIES
   active_designer (~> 0.0.3)
   bootsnap
-  capybara
+  capybara (~> 3.40)
   debug
   importmap-rails
   jbuilder
@@ -283,7 +283,7 @@ DEPENDENCIES
   pry
   puma (>= 5.0)
   rails (~> 7.1.5, >= 7.1.5.1)
-  rspec-rails
+  rspec-rails (~> 7.1, >= 7.1.1)
   shoulda-matchers
   sprockets-rails
   stimulus-rails
